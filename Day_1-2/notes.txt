@@ -1,0 +1,27 @@
+How to create a website?
+
+your computer can act as a  temporary development server.
+
+A Browser + A HTML file ( A regular text file with .html )
+
+--> Understanding HTML elements
+HTML  is a markup Language.
+HTMl instructs the Browser about content , its structure and its meaning.
+
+<h1>Hello World!</h1> --  HTML element - Elements tell the Browser which kind of content displayed ( headings, text, button, lists, images,...)
+<h1>  </h1> --  HTML tags ( opening & closing)
+Hello World! --   element content
+<element name> -- tells the browser wich kinf of element.
+
+
+which HTML Elements Exists?
+
+there are many available. - (MDN - HTML element referece.)
+
+Why HTML Elements?
+
+Without extra annotation , content often has no clear meaning.--  its like writing just plain, unformatted text in Word.
+
+"Telling" the browser that something is a title/subtitle/images.. allows the browser to present that content correctly.
+
+attributes - extra piece of info to add to elements
