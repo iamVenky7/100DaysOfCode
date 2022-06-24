@@ -3,6 +3,8 @@ h1 {
   color: rgb(71, 62, 62);
 }
 a {
+  padding: 12px;
+
   background-color: rgb(167, 1, 78);
   color: white;
   border-radius: 4px;
