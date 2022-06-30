@@ -7,10 +7,17 @@ ul {
   margin: 0;
   padding: 0;
 }
+li a {
+  text-decoration: none;
+}
 header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
   flex-flow: row nowrap;
 }
+
 #page-logo a {
   padding: 10px;
   font-family: "Oleo Script", sans-serif;
@@ -19,6 +26,12 @@ header {
   text-decoration: none;
   text-transform: uppercase;
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
-  border-image: ;
 }
-h1[color:"green"]
+
+header ul {
+  display: flex;
+}
+
+header li {
+  margin-left: 20px;
+}
