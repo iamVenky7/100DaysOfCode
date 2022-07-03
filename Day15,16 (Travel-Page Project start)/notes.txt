@@ -5,3 +5,5 @@ Understanding layouts & Positioning -- Project
 
 
 Positioning of elements
+
+UnderstandingFixed and Absolute Positioning
