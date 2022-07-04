@@ -1,0 +1,8 @@
+Understanding the Responsive web Design
+
+One Website - Different Devices
+
+Content:
+0) Responsive Design - What and Why?
+1)Working wuth media Queries  -[these allow to change look depending on the size ]
+2)Creating a Side Drawer  a specific layout for mobile phones
