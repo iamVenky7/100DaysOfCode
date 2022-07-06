@@ -1,0 +1,12 @@
+implementing media queries
+
+Hamburger Icon & Side Drawer
+
+1) Create Clickable Hamburger button in mobile view
+2)Open side drawer on first button click
+3)close side drawer on second button click
+
+topics covered:
+Internal links - Adds defined ID to URL  - href="#id"
+
+The Target selectors - Activates CSS rules if defined ID is selected in URL - #id:target
