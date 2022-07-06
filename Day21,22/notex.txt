@@ -6,3 +6,51 @@ Content:
 0) Responsive Design - What and Why?
 1)Working wuth media Queries  -[these allow to change look depending on the size ]
 2)Creating a Side Drawer  a specific layout for mobile phones
+
+
+Comparing Units(specifically for font-size)
+
+px--  easy to Understand & translateable
+   -- Limited user focus & not scalable
+
+% -- Relative to parent element size
+   -- hard to manage due to casacading nature
+
+em-- size is Relative to font-size of another element
+   -- Hard to manage due to casacading nature
+
+rem --  Size is Relative to root element's fontsize
+    -- Prefered choice if applicable
+
+0.1em = 4px    
+0.1rem = 2.2px
+
+% always refers to the parent element
+em & rem relate  to font size 
+
+
+Comparing Desktop & Mobile First Design
+
+Desktop First vs Mobile First
+
+Desktop First -- Traditional approach, Office based audience,  Feature-rich Website
+Mobile First -- Functional approach, Lifestyle/news focused audience, "Content first"
+
+
+Getting Started with Media Queries
+
+Media Query is a CSS code 
+
+@media(min width or max width:1200px){
+            p{
+      font-size: 2rem;
+   }
+}
+
+Desktop First -- max-width
+Mobile First -- min-width
+
+Common Break Points for media Queries
+
+Portrait mode : smartphones (480px), tablet(768px)
+Landscape mode: Notebook(1024px), DesktopComputer (1200px), TV( >1200px)
