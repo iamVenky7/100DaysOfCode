@@ -1,0 +1,41 @@
+Designing Beautiful Websites
+    Some Helpful Tricks
+
+Module Content
+
+project Example: Tips & Tricks to Create Beautiful Websites
+
+CSS Custom Properties, Transitions & SVG Basics
+
+
+** 3 Things To Keep in Mind while creating Websites** 
+
+> Add *different feautures* step-by-step
+> Think about the *core information* that should be transfered
+> Less is more - Don't overstyle your Website
+
+
+
+More about selectors
+
+html -- selects html element (=root element of an html file)
+
+:root
+(pseudo-selectors)  - Selects element which is the root of the document
+
+* -- selects all elements of the html document
+
+CSS Transformations and transistions
+
+Transformations:move/change appearance of element , eg when hovering
+
+
+transistions: some transistion from initial to transformed state
+
+transform: scale(2)
+
+
+
+Working with SVG
+using SVG's 
+scalable vVector graphics
