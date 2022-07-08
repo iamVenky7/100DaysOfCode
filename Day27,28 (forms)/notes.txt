@@ -1,0 +1,34 @@
+Web Forms
+Allowing users to enter Data.
+
+Content:
+What and Why?
+Exploring Different HTML form Elements
+Building an Example Form.
+
+What are "Web Forms?"
+
+Many websites are not just about presenting (showing) content.
+
+Instead, user input is often requested as well.
+contact form, checkout form, login form, comment form and mant other kinds of forms.
+
+There are special HTML Elements for getting and handling user input.
+
+Key Form Elements
+<input type="..."> -> The "type" attribute control which type of input will be shown. (e.g. single line text input, number input, email adress input,...)
+<textarea> </textarea>  ->  A multi-line text input field.
+<select></select>  -> A dropdown multiple-choice or multi-select input.
+<button></button>   -> A button to reset or submit the form.
+
+
+<input type="...">:Different input types
+
+<input type="text">   - A Single-line text input field
+<input type="email">   
+<input type="number">   
+<input type="date">   
+<input type="radio">
+<input type="checkbox">   
+<input type="fiel">   
+-
