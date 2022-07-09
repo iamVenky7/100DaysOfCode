@@ -31,4 +31,6 @@ Key Form Elements
 <input type="radio">
 <input type="checkbox">   
 <input type="fiel">   
--
+
+
+validate-  A "boolean attribute" is an attribute whuch is either there or not ("yes/no" => boolean value)

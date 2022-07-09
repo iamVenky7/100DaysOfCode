@@ -12,21 +12,147 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <form action="" method="get">
-      <label for="user-name">Your name:</label>
-      <input type="text" name="user-name" id="user-name" />
-      <label for="user-name">Your name:</label>
-      <input type="email" id="useremail" />
-      <input type="userage" name="user-email" id="useremail" />
-      <input type= userage"/>
-      <input dtalim4 name="" id="number" />
-      <input type=" password" name="" id="" />
-      <input type="userage" />
+    <header>
+      <h1>Demo Form</h1>
+    </header>
+    <main>
+      <form action="" method="get">
+        <section>
+          <h2>Your personal details</h2>
+          <ul>
+            <li>
+              <label for="user-name">Your name:</label>
+              <input type="text" name="user-name" id="user-name" required />
+            </li>
+            <li>
+              <label for="useremail">Your email adress</label>
+              <input type="email" name="user-email" id="useremail" required />
+            </li>
+            <li>
+              <label for="userpassword">Your password</label>
+              <input
+                type="password"
+                name="user-password"
+                id="userpassword"
+                required
+                minlength="7"
+                maxlength="15"
+              />
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2>More details</h2>
+          <ul>
+            <li>
+              <label for="userage">Your Age</label>
+              <input
+                type="number"
+                step="1"
+                name="user-age"
+                id="userage"
+                required
+                min="18"
+                max="60"
+              />
+            </li>
+            <li>
+              <label for="birthdate">Your DOB</label>
+              <input
+                type="date"
+                name="user-birthdate"
+                id="birthdate"
+                required
+                min="1990-01-01"
+                max="2060-01-01"
+              />
+            </li>
+            <li>
+              <label for="favorite-color">Your Favorite color?</label>
 
-      }<input type= userage"/>
-      <input dtalim4 name="" id="" />
-      <input type="userage" />
-      <button>Submit</button>
-    </form>
+              <select id="favorite-color" name="favorite-color">
+                <option value="red">My favorite color is Red</option>
+                <option value="green">My favorite color is Green</option>
+                <option value="blue">My favorite color is Blue</option>
+              </select>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <label for="user-message">Your message</label>
+          <textarea name="user-message" id="user-message"></textarea>
+        </section>
+
+        <section>
+          <h2>How should we verify your Account</h2>
+          <ul>
+            <li class="form-control-inline">
+              <input
+                type="radio"
+                name="verify"
+                id="verify-text-message"
+                value="text-message"
+                required
+              />
+              <label for="verify-phone">Via a phone message (SMS)</label>
+            </li>
+
+            <li class="form-control-inline">
+              <input
+                type="radio"
+                name="verify"
+                id="verify-phone"
+                value="phone"
+                required
+              />
+              <label for="verify-phone">Via a phone call</label>
+            </li>
+            <li class="form-control-inline">
+              <input
+                type="radio"
+                name="verify"
+                id="verify-email"
+                value="email"
+                required
+              />
+              <label for="verify-email">Via an Email</label>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2>How should we contact you?</h2>
+          <ul>
+            <li class="form-control-inline">
+              <input
+                type="checkbox"
+                name="contact"
+                id="contact-email"
+                value="email"
+              />
+              <label for="contact-email">Contact me via Email</label>
+            </li>
+            <li class="form-control-inline">
+              <input
+                type="checkbox"
+                name="contact"
+                id="contact-phone"
+                value="phone"
+              />
+              <label for="contact-phone">Contact me via Phone</label>
+            </li>
+          </ul>
+        </section>
+        <hr />
+        <section>
+          <div class="form-control-inline">
+            <input type="checkbox" name="terms" id="agree-terms" />
+            <label for="agree-terms">Agree to terms?</label>
+          </div>
+        </section>
+        <section>
+          <button type="submit">Submit</button>
+        </section>
+      </form>
+    </main>
   </body>
 </html>
