@@ -1,0 +1,46 @@
+wahooo!
+
+JavaScript: The Basics
+Adding interactivity to Websites
+
+Module Content:
+What & Why?
+Core JavaScript Syntax
+Examples!
+
+
+What is JavaScript?
+A Programming language that can be executed by browsers.
+The only programming language that browsers can execute!
+
+HTML: Define structure and semantics.
+CSS: Style the elements and page Content.
+JavaScript: Change the page dynamically (without loading a different HTML file), do "behind the scences" calculations and work& much more!
+
+****JavaScript Applications & Use-Cases****
+
+Update displayed data behind the scences (e.g. Weather data, stocks data, chat messages,..)
+Display or use a timer.
+Validate user input and show error message + attach error styles to elements.
+Display & manage complex overlays.
+Re-order, hide/show or remove elements on the screen (e.g. drag-and-drop list)
+Keep (parts of) Websites working, even if the internet connection is lost.
+
+
+****Core JavaScript Syntax & Features****
+
+What is "Syntax"?
+
+It's the "Grammar" of a Programming Language.
+
+Certain rules, you must adhere to (otherwise, you code won't work and you'll get an error)
+
+***Core JavaScript Syntax & Features***
+Variables & Values
+Arrays & Objects
+Functions
+working with the "DOM"
+Control Structure
+
+let is a keyword that instructs a browser to create a Variable.
+JS works top to bottom and left to right i.e, line by line step by step
