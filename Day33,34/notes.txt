@@ -1,0 +1,26 @@
+Working with the DOM
+Manipulating the Running Website.
+
+Content:
+Working with the "the DOM & Events.
+Control Structures
+Selecting & Changing HTML Elements via JavaScript.
+Examples
+
+
+
+
+
+//"THE DOM"- Document object model
+//the data representation ("internal representation") of the parsed HTML code
+
+/* The browser parses our HTML code and                  Our javscript code is able to interact with 
+saves all elements as JavaScript objects. --->         the DOM and extract data from it or manipulate it. */
+
+/* 
+"window" & "document"
+
+Built-in variables & Functions
+                                                        --> Global "window" Object --> Holds information and functionality related to the active browser window/tab
+    e.g. current location, utility functionlike alert() <---  The 'document' object (window.document)-- Holds information andd functionality to the loaded website content
+                                         e.g. utility functions to access HTML elements */
