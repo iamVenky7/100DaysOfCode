@@ -24,3 +24,29 @@ Built-in variables & Functions
                                                         --> Global "window" Object --> Holds information and functionality related to the active browser window/tab
     e.g. current location, utility functionlike alert() <---  The 'document' object (window.document)-- Holds information andd functionality to the loaded website content
                                          e.g. utility functions to access HTML elements */
+
+
+
+
+
+
+
+
+
+   defer in script tag-  tells the browser that defer the script execution that it should wait with the script execution until  the entire  documenthas parsed.
+
+
+THE DOM TREE
+
+document --head & body--> h1 & p --> a
+
+Selecting DOM Elements
+----------------
+
+"Drill into Elements" - document.body.children[0].firstChild --> You have to know the DOM Structure and if it changes, your code needs to change as well
+Query Elements  - document.getElementById('some-id);  document.querySelector('.some-class');   --> Selecting elements works like in CSS and hence no exact DOM Structure knowledge is required.
+
+
+if you know that you want to get access to the firsr child element of another element, you can use either of these 2 types.
+1).children[0]
+2) .firstElementChild
