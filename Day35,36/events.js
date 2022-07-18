@@ -29,7 +29,7 @@ let inputElement = document.querySelector("input");
 
 function retriveUserInput(event) {
   //let enteredText = inputElement.value;
-  let enteredText = event.target.value;
+  let enteredText = event.target.value; //The 'event' Object
 
   //let enteredText = event.data;  => This is different
   console.log(enteredText);
@@ -38,4 +38,37 @@ function retriveUserInput(event) {
 
 inputElement.addEventListener("input", retriveUserInput);
 
-//The 'event' Object
+//introducing 'Constant variables'('Constants')
+
+//Understanding Variables & Constants
+/* 32 - value - age --> Label('Name of the variable')
+
+ Variables are "labeled data containers" */
+
+//Variables
+/* "True" variables where the stored value actually changes
+let name = 'Venky';
+name = 'Ven';
+//Constants
+"Variables" where the value actually never changes
+const enteredValue ='Hi'; */
+
+//Changing Element Styles
+
+// const spanElement = document.getElementById("remaining-chars");
+// spanElement.style.backgroundColor = "red";
+
+//Managing CSS  classes with JavaScript
+
+/* spanElement.className = "first-class second-class";
+("first-class second-class");
+spanElement.className = "warning";
+("warning");
+spanElement.className = "warning some-class";
+("warning some-class");
+spanElement.classList.add("warning");
+undefined;
+spanElement.classList.remove("warning");
+undefined; */
+
+//Summary
